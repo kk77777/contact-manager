@@ -66,6 +66,7 @@ const AuthState = (props) => {
         user: state.user,
         error: state.error,
         register,
+        clearErrors,
       }}
     >
       {props.children}
